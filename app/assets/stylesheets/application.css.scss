@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+@import 'bootstrap';
+
+/* universal */
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+}
+
+.navbar li { color: #000 } 
+
+body {
+  padding-top: 100px;
+  background: url("http://i.imgur.com/KjyvQ6I.jpg")  
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 1px solid #DDD; }
