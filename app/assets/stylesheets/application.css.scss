@@ -16,18 +16,49 @@
 
 @import 'bootstrap';
 
-/* universal */
 
-.navbar {
-   background-color: transparent;
-   background: transparent;
+/*======== UNIVERSAL ========*/
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.navbar li { color: #000 } 
+
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #0f0fff;
+}
+
+.navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+  color: transparent;
+}
+
+label {
+  color: whitesmoke
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+}
 
 body {
   padding-top: 100px;
-  background: url("http://i.imgur.com/KjyvQ6I.jpg")  
+  background: url("http://www.laidget.com/images/full/2015/01/05/bulgarian-misty-landscape-hd-wallpapers-Bulgarian-Misty-Landscape-1080x1920.jpg")  
 }
 
 section {
@@ -50,3 +81,73 @@ textarea {
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+
+
+
+
+
+/*===== User sign in and sign forms. =====*/
+
+.border-form-div {
+  max-width: 500px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: transparent;
+  // opacity: ;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.border-form-div .form-signin-heading,
+.border-form-div .checkbox {
+  margin-bottom: 10px;
+}
+.border-form-div input[type="text"],
+.border-form-div input[type="email"],
+.border-form-div input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+
+
+
+/*===== Jumbotron =====*/
+.jumbotron{
+    background: transparent;
+  }
+
+/* Jumbotron h1 */
+.jumbotron h1 {
+  color: #ffffff;
+}
+
+/* Jumbotron h2 */
+.jumbotron h2 {
+  color: #ffffff;
+}
+
+
+
+
+/*===== Button =====*/
+
+.btn{
+	background: transparent;
+	color: #F2F2F2;
+}
+
+.btn-primary {
+    background: transparent;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
